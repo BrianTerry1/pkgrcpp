@@ -1,5 +1,6 @@
 #include <Rcpp.h>
 using namespace Rcpp;
+// [[Rcpp::interfaces(r, cpp)]]
 
 //' Add Two Numbers
 //'
