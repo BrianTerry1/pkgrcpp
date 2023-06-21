@@ -4,6 +4,7 @@
 #ifndef RCPP_pkgrcpp_RCPPEXPORTS_H_GEN_
 #define RCPP_pkgrcpp_RCPPEXPORTS_H_GEN_
 
+#include <RcppArmadillo.h>
 #include <Rcpp.h>
 
 namespace pkgrcpp {

@@ -11,6 +11,10 @@ add_cpp <- function(x, y) {
     .Call(`_pkgrcpp_add_cpp`, x, y)
 }
 
+inner_prod <- function(x, y) {
+    .Call(`_pkgrcpp_inner_prod`, x, y)
+}
+
 # Register entry points for exported C++ functions
 methods::setLoadAction(function(ns) {
     .Call('_pkgrcpp_RcppExport_registerCCallable', PACKAGE = 'pkgrcpp')
